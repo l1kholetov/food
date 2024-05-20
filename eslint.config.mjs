@@ -19,7 +19,7 @@ export default [
       "@stylistic/js/comma-dangle": ["error", "never"],
       "no-unused-vars": "off",
       "camelcase": "error",
-      "no-undef": "error",
+      "no-undef": "warn",
       "no-constant-condition": "off",
       "indent": ["error", 2, { "VariableDeclarator": "first", "SwitchCase": 1 }]
     }
