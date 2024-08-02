@@ -28,23 +28,25 @@ function forms(formSelector, modalTimerId) {
       `;
       form.insertAdjacentElement('afterend', statusMessage);
 
-      const formData = new FormData(form);
+      // const formData = new FormData(form);
 
-      const json = JSON.stringify(Object.fromEntries(formData.entries()));
+      // const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-      postData('http://localhost:3000/requests', json)
-        .then(data => {
-          console.log(data);
-          showThanksModal(message.success);
-          form.reset();
-          statusMessage.remove();
-        })
-        .catch(() => {
-          showThanksModal(message.failed);
-        })
-        .finally(() => {
-          form.reset();
-        });
+      // postData('http://localhost:3000/requests', json)
+      //   .then(data => {
+      //     // console.log(data);
+      //     showThanksModal(message.success);
+      //     form.reset();
+      //     statusMessage.remove();
+      //   })
+      //   .catch(() => {
+      //     // showThanksModal(message.failed);
+      //   })
+      //   .finally(() => {
+      //     form.reset();
+      //   });
+
+      showThanksModal(message.success);
     });
   }
 
