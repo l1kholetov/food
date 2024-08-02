@@ -8138,7 +8138,7 @@ window.addEventListener('DOMContentLoaded', function () {
   }, 50000);
   (0,_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
   (0,_modules_modal__WEBPACK_IMPORTED_MODULE_3__["default"])('[data-modal]', '.modal', modalTimerId);
-  (0,_modules_timer__WEBPACK_IMPORTED_MODULE_4__["default"])('.timer', '2024-05-31');
+  (0,_modules_timer__WEBPACK_IMPORTED_MODULE_4__["default"])('.timer', '2024-09-31');
   (0,_modules_slider__WEBPACK_IMPORTED_MODULE_8__["default"])({
     container: '.offer__slider',
     nextArrow: '.offer__slider-next',
