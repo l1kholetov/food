@@ -47,6 +47,8 @@ function forms(formSelector, modalTimerId) {
       //   });
 
       showThanksModal(message.success);
+      form.reset();
+      statusMessage.remove();
     });
   }
 
